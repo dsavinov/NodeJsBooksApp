@@ -1,0 +1,2 @@
+C:\Users\Freem_000\documents\visual studio 2013\Projects\NodeJsBooksApp\NodeJsBooksApp\obj\Debug\NodeJsBooksApp.njsprojResolveAssemblyReference.cache
+C:\Users\Freem_000\documents\visual studio 2013\Projects\NodeJsBooksApp\NodeJsBooksApp\bin\Microsoft.NodejsTools.WebRole.dll

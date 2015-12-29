@@ -1,0 +1,11 @@
+﻿{% extends 'layout.html' %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block content %}
+<h1>{{book.title}}</h1>
+<p>Author: <b>{{ book.author }}</b></p>
+<p>Short description: {{ book.description }}</p>
+<p>ISBN: {{ book.isbn }}</p>
+<p><a class="btn btn-default" href="/">Go Back</a></p>
+{% endblock %}

@@ -1,0 +1,20 @@
+﻿{% extends 'layout.html' %}
+
+{% block title %}Books{% endblock %}
+
+{% block content %}
+<h1>Edit Book</h1>
+<hr />
+<form action="/book/update" method="post">
+    <p><input type="hidden" value="{{ book._id.toString() }}" name="id"></p>
+    <p><input type="text" value="{{ book.title }}" name="title"></p>
+    <p><input type="text" value="{{ book.author }}" name="author"></p>
+    <p><input type="text" value="{{ book.description }}" name="description"></p>
+    <p><input type="text" value="{{ book.isbn }}" name="isbn"></p>
+    <p><input type="hidden" value="{{ book.createdAt.toString() }}" name="createdAt"></p>
+    <p>
+        <a class="btn btn-default" href="/">Go Back</a>
+        <input type="submit" class="btn btn-primary" value="Update">
+    </p>
+</form>
+{% endblock %}
